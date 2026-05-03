@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Showroom Management System",
+    "shortDesc": "Full-featured vehicle showroom management with inventory, sales tracking, and customer management.",
+    "overview": "A comprehensive showroom management platform built for car dealerships to streamline inventory, sales, and customer relationships.",
+    "features": ["Vehicle inventory management", "Sales & invoicing module", "Customer CRM", "Analytics dashboard", "User roles & permissions"],
+    "technologies": ["oop in java", "java Fx", "backend files for each activity","File handling"],
+    "purpose": "Designed to replace manual spreadsheet workflows at dealerships with a modern digital solution.",
+    "image": "/showroom.png",
+    "tags": ["oop in java", "java Fx", "backend files for each activity","File handling"],
+    "github": "https://github.com/Ishtiaq053"
+  },
+  {
+    "id": 2,
+    "title": "Restaurant Management System",
+    "shortDesc": "End-to-end restaurant operations: orders, menu, staff, and reporting in one dashboard.",
+    "overview": "A full-stack restaurant management system that digitizes table ordering, kitchen display, and billing.",
+    "features": ["Table & order management", "Digital menu builder", "Kitchen display system", "Staff scheduling", "Revenue reports"],
+    "technologies": ["DSA", "Data structures", "priority queues", "REST API"],
+    "purpose": "Built to help local restaurants modernize their operations and reduce order errors.",
+    "image": "/restaurant.png",
+    "tags": ["DSA", "Data structures", "priority queues"],
+    "github": "https://github.com/Ishtiaq053"
+  },
+  {
+    "id": 3,
+    "title": "Factory Management System",
+    "shortDesc": "Production floor management with resource planning, worker tracking, and output analytics.",
+    "overview": "Industrial factory management software covering production scheduling, raw material tracking, and quality control.",
+    "features": ["Production scheduling", "Raw material inventory", "Worker attendance", "Quality control logs", "Export reports"],
+    "technologies": ["Database Management System", "Frontend in C#", "Stored Procedures", "Real world Project","Also applied the concept of Ledger in this project"],
+    "purpose": "Aimed at small-to-medium factories transitioning from paper-based systems to digital workflows.",
+    "image": "/factory.png",
+    "tags": ["Database Management System", "Frontend in C#", "Stored Procedures"],
+    "github": "https://github.com/Ishtiaq053"
+  },
+  {
+    "id": 4,
+    "title": "DealsFinder Platform",
+    "shortDesc": "Smart deals aggregator that finds and compares the best prices across multiple e-commerce platforms.",
+    "overview": "A price comparison and deals discovery platform that aggregates offers and alerts users to the best deals in real time.",
+    "features": ["Multi-platform price scraping", "Deal alerts & notifications", "Wishlist tracking", "Price history charts", "Category filters"],
+    "technologies": ["professional frontend ", "TypeScript", "Tailwind CSS", "REST API"],
+    "purpose": "Helps budget-conscious shoppers save money by surfacing hidden deals automatically.",
+    "image": "/dealsfinder.png",
+    "tags": ["Professional UI", "TypeScript", "Tailwind CSS"],
+    "github": "https://github.com/Ishtiaq053"
+  },
+  {
+    "id": 5,
+    "title": "Worker Finder Platform",
+    "shortDesc": "Connects skilled workers with employers through a verified profiles and smart matching system.",
+    "overview": "A labor marketplace platform that enables employers to find vetted workers and workers to find opportunities near them.",
+    "features": ["Verified worker profiles", "Skill-based matching", "Location-based search", "In-app messaging", "Review & rating system"],
+    "technologies": ["React", "Node.js", "Supabase"],
+    "purpose": "Addresses the informal labor market gap by digitizing how workers and employers connect.",
+    "image": "/workerfinder.png",
+    "tags": ["React", "Node.js", "Supabase"],
+    "github": "https://github.com/Ishtiaq053"
+  }
+]

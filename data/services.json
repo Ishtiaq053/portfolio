@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development",
+    "description": "Full-stack web applications built with React, Next.js, and Node.js — fast, scalable, and production-ready.",
+    "icon": "Globe",
+    "color": "#f97316"
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design",
+    "description": "Intuitive, user-centered interface design with a focus on usability, visual hierarchy, and clean aesthetics.",
+    "icon": "Layers",
+    "color": "#f97316"
+  },
+  {
+    "id": 3,
+    "title": "Mobile Development",
+    "description": "Responsive web apps that feel native on mobile — optimized layouts, touch interactions, and performance.",
+    "icon": "Smartphone",
+    "color": "#f97316"
+  },
+  {
+    "id": 4,
+    "title": "Figma Design",
+    "description": "High-fidelity Figma prototypes and design systems for seamless handoff to development teams.",
+    "icon": "Palette",
+    "color": "#f97316"
+  },
+  {
+    "id": 5,
+    "title": "Database Management",
+    "description": "MongoDB and PostgreSQL database design, query optimization, and data modeling for reliable applications.",
+    "icon": "Database",
+    "color": "#f97316"
+  },
+  {
+    "id": 6,
+    "title": "Other Services",
+    "description": "Code reviews, API integrations, performance audits, and custom solutions tailored to your project needs.",
+    "icon": "Settings",
+    "color": "#f97316"
+  }
+]
