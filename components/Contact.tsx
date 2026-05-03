@@ -45,14 +45,29 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setStatus("sending");
+    try {
+      setStatus("sending");
 
-    await new Promise((r) => setTimeout(r, 1500));
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      });
 
-    setStatus("success");
-    setForm({ name: "", email: "", message: "" });
+      const data = await res.json();
 
-    setTimeout(() => setStatus("idle"), 3000);
+      if (data.success) {
+        setStatus("success");
+        setForm({ name: "", email: "", message: "" });
+      } else {
+        throw new Error("Failed");
+      }
+    } catch (error) {
+      console.error(error);
+      setStatus("idle");
+    }
   };
 
   return (
